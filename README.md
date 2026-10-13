@@ -13,8 +13,7 @@ and extracts the profile fields.
   browsers, `write_xlsx()` output.
 - `companies.txt` — one company per line. Scraping stops when the queue is
   empty; blank lines are ignored.
-- `ICS West Output.xlsx` — generated output (default path).
-- `ICS West Exhibitors.xlsx` — reference sample (expected format).
+- `ICS West Output.xlsx` — reference sample (expected format).
 - `output/` — earlier probes and helper scripts (`extract_detail.py`,
   `write_xlsx.py`, network captures). Not required at runtime.
 
@@ -22,7 +21,7 @@ and extracts the profile fields.
 
 - Python >= 3.13
 - Brave (`/usr/bin/brave` on Linux) or edit `chrome_executable_path` in
-  `main.py`
+  `main.py` (For Better Anti-detection)
 - Dependencies from `pyproject.toml`: `botasaurus`, `botasaurus-driver`,
   `colorama`
 - `openpyxl` is optional. If installed it is used for `.xlsx`; otherwise

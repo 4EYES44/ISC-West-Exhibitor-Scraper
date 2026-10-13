@@ -549,3 +549,4 @@ if __name__ == "__main__":
     write_xlsx(ordered, OUTPUT_XLSX)
     print(" ")
     print(Fore.LIGHTGREEN_EX + f"DONE! {len(ordered)} rows -> {OUTPUT_XLSX}")
+    sys.exit('Press Enter To Exit ...')
